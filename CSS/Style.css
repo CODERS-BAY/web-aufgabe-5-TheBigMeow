@@ -14,6 +14,13 @@ h1 {
 .row {
     display: flex;
 }
+.h1header {
+    position: relative;
+    top: 80%;
+    background-color: transparent;
+    color: black;
+    font-size: 100px;
+}
 
 .container {
     max-width: 500px;
@@ -58,8 +65,17 @@ p:nth-child(2n) {
 .background-tiger{
     background-image: url('../Bilder/Tiger.jpg');
 }
-
-input[type=time]:before{
+.icon-pen:before{
+    content: "";
+    display: block;
+    background: url("../Bilder/pencil.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+    background-size: cover;
+}
+.icon-timer:before{
     content: "";
     display: block;
     background: url("../Bilder/timer.png") no-repeat;
@@ -67,6 +83,27 @@ input[type=time]:before{
     height: 20px;
     float: left;
     margin: 0 6px 0 0;
+    background-size: cover;
+}
+.icon-calender::before {
+    content: "";
+    display: block;
+    background: url("../Bilder/calendar.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+    background-size: cover;
+}
+.icon-mail::before {
+    content: "";
+    display: block;
+    background: url("../Bilder/email.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+    background-size: cover;
 }
 
 .tab {
